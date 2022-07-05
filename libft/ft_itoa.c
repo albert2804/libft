@@ -6,11 +6,11 @@
 /*   By: aestraic <aestraic@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 12:25:09 by aestraic          #+#    #+#             */
-/*   Updated: 2022/04/14 15:40:11 by aestraic         ###   ########.fr       */
+/*   Updated: 2022/07/05 12:38:41 by aestraic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 
 static int	ft_digit_count(int n)
 {
