@@ -1,7 +1,0 @@
-// to compile a main.c or single_file.c use this code 
-
-gcc -I header bib/libft.a main.c
-
-// see what functions are in the archive libft.a
-nm -o libft.a
-
