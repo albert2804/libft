@@ -6,17 +6,17 @@
 /*   By: aestraic <aestraic@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 12:25:09 by aestraic          #+#    #+#             */
-/*   Updated: 2022/07/05 12:38:41 by aestraic         ###   ########.fr       */
+/*   Updated: 2022/07/06 17:59:37 by aestraic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <libft.h>
 
-void ft_lstiter(t_list *lst, void (*f)(void *))
+void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	t_list *lst_tmp;
-	lst_tmp = lst;
+	t_list	*lst_tmp;
 
+	lst_tmp = lst;
 	if (!f || !lst)
 		return ;
 	while (lst)

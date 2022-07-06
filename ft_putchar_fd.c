@@ -6,13 +6,13 @@
 /*   By: aestraic <aestraic@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 12:25:09 by aestraic          #+#    #+#             */
-/*   Updated: 2022/07/05 12:38:41 by aestraic         ###   ########.fr       */
+/*   Updated: 2022/07/06 17:57:51 by aestraic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <libft.h>
 
-void ft_putchar_fd(char c, int fd)
+void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }

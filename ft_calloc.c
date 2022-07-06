@@ -6,7 +6,7 @@
 /*   By: aestraic <aestraic@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 12:25:09 by aestraic          #+#    #+#             */
-/*   Updated: 2022/07/05 12:38:41 by aestraic         ###   ########.fr       */
+/*   Updated: 2022/07/06 18:01:52 by aestraic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	*ft_calloc(size_t n_elem, size_t el_size)
 	void	*array;
 
 	if (el_size != 0 && 18446744073709551615UL / el_size < n_elem)
-        return (NULL);
+		return (NULL);
 	array = malloc(n_elem * el_size);
 	if (!array)
 		return (NULL);
